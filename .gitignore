@@ -2,6 +2,13 @@ data_download/
 yolo_library/
 runs/
 
+labels/
+dataset.yaml
+train.cache
+train.txt
+val.cache
+val.txt
+
 # Repo-specific GitIgnore ----------------------------------------------------------------------------------------------
 *.jpg
 *.jpeg
