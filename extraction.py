@@ -5,8 +5,8 @@ from glob import glob
 from sklearn.model_selection import train_test_split
 import yaml
 
-the_number = 5
-text_rate = 0.2
+the_number = 6000
+text_rate = 0.05
 
 dataset = foz.load_zoo_dataset(
     "open-images-v6",
