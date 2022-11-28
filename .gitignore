@@ -1,8 +1,10 @@
 __library/
 runs/
 
-python.exe .\train.py --img 416 --batch 2 --epochs 5 --data .\data\fruitdata\data.yaml --cfg .\models\yolov5s.yaml --weights .\yolov5s.pt --name gpu_test --cache ram
 pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu117
+
+python.exe .\train.py --img 416 --batch 2 --epochs 5 --data .\data\fruitdata\data.yaml --cfg .\models\yolov5s.yaml --weights .\yolov5s.pt --name gpu_test --cache ram
+
 
 images/
 labels/
